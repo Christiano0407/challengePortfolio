@@ -1,0 +1,19 @@
+@media (max-width: 650px) {}
+
+@media (min-width: 768px) {}
+
+
+@media screen and (min-width: 1024px) {
+    .helper {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100vh;
+        height: 90vh;
+        outline: 2px solid red;
+    }
+
+    .main {
+        display: flex;
+        align-items: center;
+    }
+}
