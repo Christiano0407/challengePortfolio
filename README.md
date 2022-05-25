@@ -4,17 +4,15 @@ Challenge Portfolio with Platzi. Practice and create my new Portfolio Web.
 
 # Challenge Create Portfolio With Platzi
 
-- [Platzi](https://platzi.com/home);
+- [Platzi](https://platzi.com/home)
 
 ## Challenge Clone Twitter
 
-![](src/assets/twit01.png);
+![](src/assets/twit01.png)
 
-![](src/assets/twit02.png);
+![](src/assets/twit05.png)
 
-![](src/assets/twit05.png);
-
-![](src/assets/twit03.png);
+![](src/assets/twit03.png)
 
 # MIT License
 
