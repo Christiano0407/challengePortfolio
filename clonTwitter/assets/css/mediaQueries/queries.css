@@ -4,16 +4,60 @@
 
 
 @media screen and (min-width: 1024px) {
-    .helper {
+    #helperID {
         display: flex;
         flex-direction: row-reverse;
-        width: 100vh;
+        width: 100vw;
         height: 90vh;
         outline: 2px solid red;
     }
 
-    .main {
+    #mainID {
         display: flex;
         align-items: center;
     }
+
+    #mainHeroID {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    #mainBackground,
+    #helperContent {
+        width: 50%;
+        height: 100%;
+    }
+
+    #titlesOneID {
+        font-size: 5rem;
+    }
+
+    #mainDivisionID {
+        max-width: 30rem;
+        margin: 0 auto;
+    }
+
+    #mainText {
+        width: 30rem;
+        margin: 0 auto;
+        letter-spacing: 0.2rem;
+    }
+
+    /* #btnWhite {
+        color: #333;
+    } */
+
+    #btnWhite span {
+        margin-right: 1rem;
+    }
+
+    #footerID {
+        height: 10vh;
+    }
 }
+
+@media screen and (min-width: 1440px) {}
+
+@media (min-width: 1920px) {}

@@ -101,6 +101,14 @@ h1 {
 }
 
 /*? ==== Button */
+button {
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(0.9);
+}
+
 .btn {
     padding: 1.5rem;
     border: none;
@@ -115,8 +123,4 @@ h1 {
 .btn:hover {
     outline: 2px solid #333;
     color: #000;
-}
-
-.btn:active {
-    transform: scale(0.9);
 }
