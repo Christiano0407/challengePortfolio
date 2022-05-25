@@ -1,3 +1,7 @@
+/*? ===== IMPORT =====*/
+@import url(../css/media/mediaQuerie.css);
+
+
 /** = Root =*/
 :root {
     /*=Color Basic=*/
@@ -10,6 +14,10 @@
     --clr-black-2: #0d0d0d;
     --brand-color: #1d9bf0;
     --gray-color: #cfd9de;
+    --gray-colorTwo: #f8f8f8;
+    --brand-color: rgb(238, 9, 9);
+    --blue-color: #065fd4;
+    --dark-color: #181818;
 
     /*=Typography=*/
     --font-family-Mon: 'Montserrat', sans-serif;
@@ -124,3 +132,5 @@ button:active {
     outline: 2px solid #333;
     color: #000;
 }
+
+/** ======= ============ Project General CSS =========== ============ **/
