@@ -1,6 +1,53 @@
-@media (max-width: 650px) {}
+@media (max-width: 650px) {
+    #mainHeroID {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 
-@media (min-width: 768px) {}
+    .footer--list {
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer--list {
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media(min-width: 651px) {
+    #mainHeroID {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer--list {
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 768px) {
+    #mainHeroID {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer--list {
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+    }
+}
 
 
 @media screen and (min-width: 1024px) {
