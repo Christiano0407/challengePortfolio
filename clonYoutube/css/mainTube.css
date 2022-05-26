@@ -154,3 +154,33 @@ header {
     padding: 0 20px;
     position: sticky;
 }
+
+header i {
+    font-size: 2rem;
+}
+
+button {
+    background: transparent;
+    border: 0;
+    padding: .5rem;
+}
+
+/*? ===== Logo*/
+.fa-bars {
+    color: #033030;
+    margin-right: 2rem;
+}
+
+.fa-youtube {
+    color: var(--brand-color);
+}
+
+.logo--icon {
+    display: flex;
+    align-items: center;
+}
+
+.logo-icon i {
+    margin-right: 5px;
+    font-weight: 900;
+}
