@@ -254,3 +254,26 @@ aside {
     height: 100%;
     padding: 2.5rem;
 }
+
+.aside--list {
+    border-bottom: 2px solid var(--gray-color);
+}
+
+.aside--list .aside--item {
+    padding: 15px 10px;
+}
+
+.aside--item:hover {
+    opacity: 0.5;
+}
+
+.aside--item .aside--link {
+    color: #033030;
+    cursor: pointer;
+}
+
+/** ======= Tags */
+.tags {
+    grid-area: tags;
+    display: flex;
+}
