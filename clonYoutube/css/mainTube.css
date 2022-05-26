@@ -210,3 +210,47 @@ button {
     border-radius: 5px 0 0 5px;
     border: 1px solid var(--gray-color);
 }
+
+.header--form .header--input {
+    margin-left: 1rem;
+}
+
+.header--button__grey {
+    background-color: var(--gray-color);
+    padding: .5rem;
+    margin: 0;
+}
+
+.header--button__blue {
+    color: var(--blue-color);
+    padding: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--blue-color);
+    border-radius: .3rem;
+}
+
+.header--button__blue i {
+    margin-right: 1rem;
+}
+
+/*?==== Header Profile  <<<<<*/
+.header--profile {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.header--profile {
+    justify-self: right;
+    align-self: center;
+}
+
+/** <<<<<<< Aside >>>>>>*/
+aside {
+    grid-area: sidebar;
+    width: 100%;
+    height: 100%;
+    padding: 2.5rem;
+}
