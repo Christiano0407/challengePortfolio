@@ -184,3 +184,29 @@ button {
     margin-right: 5px;
     font-weight: 900;
 }
+
+/*? <<<<< Header Logo */
+.header--logo {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    justify-self: left;
+    align-self: center;
+}
+
+.header--search {
+    place-self: center;
+    width: 100%;
+}
+
+.header--form {
+    display: flex;
+}
+
+.header--input {
+    padding: 1rem;
+    display: block;
+    width: 90%;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid var(--gray-color);
+}
