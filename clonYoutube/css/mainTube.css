@@ -75,7 +75,8 @@ html {
     }
 }
 
-ul {
+ul,
+ol {
     list-style: none;
 }
 
@@ -134,3 +135,22 @@ button:active {
 }
 
 /** ======= ============ Project General CSS =========== ============ **/
+.layout {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-areas:
+        "header header"
+        "sidebar tags"
+        "sidebar content";
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 10% 5% 85%;
+}
+
+header {
+    grid-area: header;
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    padding: 0 20px;
+    position: sticky;
+}
