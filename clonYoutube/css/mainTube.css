@@ -277,3 +277,21 @@ aside {
     grid-area: tags;
     display: flex;
 }
+
+.tags--items {
+    margin: 0 1rem;
+    height: max-content;
+    padding: 5px 1rem;
+    border-radius: 2rem;
+    background-color: var(--gray-color);
+}
+
+.tags .tags--items:hover {
+    background-color: #181818;
+    color: #fff;
+    cursor: pointer;
+}
+
+.video {
+    grid-area: content;
+}
