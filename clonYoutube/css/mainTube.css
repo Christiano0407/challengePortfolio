@@ -178,6 +178,10 @@ button {
 .logo--icon {
     display: flex;
     align-items: center;
+    font-size: 2rem;
+    font-weight: 900;
+    font-family: var(--font-family-lat);
+    color: #000;
 }
 
 .logo-icon i {
